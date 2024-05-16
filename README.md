@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Owl Assistant -  AI Assistant for Web3 Developers to build with Owl 🤖
 
-## Getting Started
+## Project Overview
+Owl Assistant helps developers build full-stack web3 applications using Owl Protocol APIs in a conversational UI way. It allows developers to mint NFTs simply by prompting via a Chatbot UI (Experimental Feature), without any fees. The project leverages various advanced technologies to streamline the development process and provide a seamless user experience.
 
-First, run the development server:
+## Problem & Solution
+### Problem:
+Developers want to build with Owl APIs but lack an interactive way to quickly and easily create full-stack web3 applications.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Solution:
+Owl Assistant provides a chatbot interface that guides developers in building web3 applications with Owl APIs. It includes a feature to mint NFTs by simply prompting the chatbot, showcasing the potential integration of Owl API and Zapier.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
+- **OpenAI Assistant APIs**: Powers natural language processing for accurate responses and conversational style.
+- **FlowiseAI**: Enables visual programming for developing conversational AI workflows.
+- **Next.js, TypeScript, TailwindCSS**: Provides a dynamic user interface with a consistent design.
+- **OpenAI GPT-3.5 Turbo and Moderation APIs**: Handles advanced chatbot responses and content moderation.
+- **Google Custom Search API**: Fetches relevant online information for up-to-date answers.
+- **Custom Training Data with Prompt Engineering**: Ensures precise responses through well-crafted prompts and curated data.
+- **Zapier** Mint NFT ERC721 using Owl Protocol on Webhook Trigger
+- **OpenAI Whisper API for Speech-to-Text**: Supports speech recognition for a multi-modal experience.
+- **LangSmith API for Chatbot Analysis**: Analyzes chatbot interactions for optimization and refinement.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![Owl Assistant](./public/Owl%20Assistant.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Live Hosted Demo
+- [Deployed on Vercel, Live Demo](https://owlgpt.vercel.app/)
+- [Owl Assistant CodeBase](https://github.com/AsharibAli/Owl-Assistant)
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Future Improvements
+- **Expanded Knowledge Base**: Integrate with additional Owl resources for more comprehensive technical answers.
+- **More Zapier Integrations**: Enhance the chatbot with more Zapier app integrations, enabling tasks like swapping, staking, etc., through conversational UI.
