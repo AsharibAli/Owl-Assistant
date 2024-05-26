@@ -53,6 +53,15 @@ const OwlAssistant = () => {
                   textColor: "#000000",
                   sendButtonColor: "#000000",
                 },
+                feedback: {
+                  color: "#000000",
+                },
+                footer: {
+                  textColor: "#000000",
+                  text: "Build with ❤️ by",
+                  company: "Asharib Ali",
+                  companyLink: "https://github.com/AsharibAli/",
+                },
               },
             },
           });
