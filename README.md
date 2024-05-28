@@ -14,7 +14,7 @@ Owl Assistant provides a chatbot interface that guides developers in building we
 - **OpenAI Assistant APIs**: Powers natural language processing for accurate responses and conversational style.
 - **FlowiseAI**: Enables visual programming for developing conversational AI workflows.
 - **Next.js, TypeScript, TailwindCSS**: Provides a dynamic user interface with a consistent design.
-- **OpenAI GPT-3.5 Turbo and Moderation APIs**: Handles advanced chatbot responses and content moderation.
+- **OpenAI GPT-4o Turbo and Moderation APIs**: Handles advanced chatbot responses and content moderation.
 - **Google Custom Search API**: Fetches relevant online information for up-to-date answers.
 - **Custom Training Data with Prompt Engineering**: Ensures precise responses through well-crafted prompts and curated data.
 - **Zapier** Mint NFT ERC721 using Owl Protocol on Webhook Trigger
